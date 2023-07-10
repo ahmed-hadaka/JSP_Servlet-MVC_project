@@ -1,9 +1,12 @@
-package com.ahmed.web.jdbc;
+package com.web.servlets;
 
 import java.io.IOException;
 import java.util.List;
 
 import javax.sql.DataSource;
+
+import com.web.beans.Student;
+import com.web.dao.StudentDbUtil;
 
 import jakarta.annotation.Resource;
 import jakarta.servlet.RequestDispatcher;

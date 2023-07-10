@@ -1,4 +1,4 @@
-package com.ahmed.web.jdbc;
+package com.web.dao;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -9,6 +9,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 import javax.sql.DataSource;
+
+import com.web.beans.Student;
 
 public class StudentDbUtil {
 	DataSource dataSource;

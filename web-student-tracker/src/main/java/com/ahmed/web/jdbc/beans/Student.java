@@ -1,4 +1,4 @@
-package com.ahmed.web.jdbc;
+package com.web.beans;
 
 public class Student {
 	private int id;
